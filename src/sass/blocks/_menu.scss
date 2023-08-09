@@ -12,7 +12,7 @@
 		display: block;
 		width: 30px;
 		height: 3px;
-		background: #151812;
+		background: #000;
 	}
 	span.long {
 		width: 36px;
@@ -68,7 +68,7 @@
 			width: 15px;
 			height: 15px;
 			border-radius: 100%;
-			border: 1px solid #000000;
+			border: 1px solid #fff;
 			transition: all 0.6s;
 		}
 		&:hover {
@@ -89,6 +89,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		fill: #fff;
 	}
 	&__overlay {
 		position: fixed;
